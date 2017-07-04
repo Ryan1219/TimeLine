@@ -1,17 +1,13 @@
 //
-//  ViewController.h
+//  YYTimeLineModel.m
 //  YYTimeLineDemo
 //
 //  Created by Ryan on 2017/7/4.
 //  Copyright © 2017年 Ryan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "YYTimeLineModel.h"
 
-@interface ViewController : UIViewController 
-
-
-
+@implementation YYTimeLineModel
 
 @end
-

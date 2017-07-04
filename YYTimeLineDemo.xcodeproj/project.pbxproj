@@ -14,6 +14,8 @@
 		1F55E24E1F0B324B006CE6CA /* YYTimeLineDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F55E24C1F0B324B006CE6CA /* YYTimeLineDemo.xcdatamodeld */; };
 		1F55E2501F0B324B006CE6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F55E24F1F0B324B006CE6CA /* Assets.xcassets */; };
 		1F55E2531F0B324B006CE6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F55E2511F0B324B006CE6CA /* LaunchScreen.storyboard */; };
+		1F55E25C1F0B33C5006CE6CA /* YYTimeLineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F55E25B1F0B33C5006CE6CA /* YYTimeLineTableViewCell.m */; };
+		1F55E25F1F0B39E7006CE6CA /* YYTimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F55E25E1F0B39E7006CE6CA /* YYTimeLineModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		1F55E24F1F0B324B006CE6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F55E2521F0B324B006CE6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F55E2541F0B324B006CE6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F55E25A1F0B33C5006CE6CA /* YYTimeLineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimeLineTableViewCell.h; sourceTree = "<group>"; };
+		1F55E25B1F0B33C5006CE6CA /* YYTimeLineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimeLineTableViewCell.m; sourceTree = "<group>"; };
+		1F55E25D1F0B39E7006CE6CA /* YYTimeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimeLineModel.h; sourceTree = "<group>"; };
+		1F55E25E1F0B39E7006CE6CA /* YYTimeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimeLineModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 				1F55E2441F0B324B006CE6CA /* AppDelegate.m */,
 				1F55E2461F0B324B006CE6CA /* ViewController.h */,
 				1F55E2471F0B324B006CE6CA /* ViewController.m */,
+				1F55E25A1F0B33C5006CE6CA /* YYTimeLineTableViewCell.h */,
+				1F55E25B1F0B33C5006CE6CA /* YYTimeLineTableViewCell.m */,
+				1F55E25D1F0B39E7006CE6CA /* YYTimeLineModel.h */,
+				1F55E25E1F0B39E7006CE6CA /* YYTimeLineModel.m */,
 				1F55E2491F0B324B006CE6CA /* Main.storyboard */,
 				1F55E24F1F0B324B006CE6CA /* Assets.xcassets */,
 				1F55E2511F0B324B006CE6CA /* LaunchScreen.storyboard */,
@@ -156,7 +166,9 @@
 			files = (
 				1F55E2481F0B324B006CE6CA /* ViewController.m in Sources */,
 				1F55E24E1F0B324B006CE6CA /* YYTimeLineDemo.xcdatamodeld in Sources */,
+				1F55E25F1F0B39E7006CE6CA /* YYTimeLineModel.m in Sources */,
 				1F55E2451F0B324B006CE6CA /* AppDelegate.m in Sources */,
+				1F55E25C1F0B33C5006CE6CA /* YYTimeLineTableViewCell.m in Sources */,
 				1F55E2421F0B324B006CE6CA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
